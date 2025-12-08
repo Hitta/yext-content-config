@@ -1,0 +1,32 @@
+{
+  "$id": "c_additionalmunicipalities",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Lisäkunnat",
+  "displayNameTranslation": [
+    {
+      "localeCode": "en",
+      "value": "Additional municipalities"
+    },
+    {
+      "localeCode": "sv",
+      "value": "Ytterligare kommuner"
+    }
+  ],
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "type": {
+        "stringType": {
+          "maxLength": 100000,
+          "stereotype": "SIMPLE"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

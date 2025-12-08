@@ -1,0 +1,55 @@
+{
+  "$id": "c_additionalpaymentmethods",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Muut maksutavat",
+  "displayNameTranslation": [
+    {
+      "localeCode": "en",
+      "value": "Additional payment methods"
+    },
+    {
+      "localeCode": "sv",
+      "value": "Ytterligare betalningsmetoder"
+    }
+  ],
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "option",
+      "maxLength": 2000,
+      "type": {
+        "optionType": {
+          "option": [
+            {
+              "displayName": "MobilePay",
+              "textValue": "MOBILEPAY"
+            },
+            {
+              "displayName": "EdenRed",
+              "textValue": "EDENRED"
+            },
+            {
+              "displayName": "Pivo",
+              "textValue": "PIVO"
+            },
+            {
+              "displayName": "ePassi",
+              "textValue": "EPASSI"
+            },
+            {
+              "displayName": "MasterPass",
+              "textValue": "MASTERPASS"
+            },
+            {
+              "displayName": "Smartum",
+              "textValue": "SMARTUM"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

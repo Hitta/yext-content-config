@@ -1,0 +1,147 @@
+{
+  "$id": "c_servicelanguages",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Palvelukielet",
+  "displayNameTranslation": [
+    {
+      "localeCode": "en",
+      "value": "Service languages"
+    },
+    {
+      "localeCode": "sv",
+      "value": "Tjänstespråk"
+    }
+  ],
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "option",
+      "maxLength": 2000,
+      "type": {
+        "optionType": {
+          "option": [
+            {
+              "displayName": "suomi",
+              "textValue": "SUOMI"
+            },
+            {
+              "displayName": "englanti",
+              "textValue": "ENGLANTI"
+            },
+            {
+              "displayName": "ruotsi",
+              "textValue": "RUOTSI"
+            },
+            {
+              "displayName": "venäjä",
+              "textValue": "VENäJä"
+            },
+            {
+              "displayName": "viro",
+              "textValue": "VIRO"
+            },
+            {
+              "displayName": "arabia",
+              "textValue": "ARABIA"
+            },
+            {
+              "displayName": "somali",
+              "textValue": "SOMALI"
+            },
+            {
+              "displayName": "albania",
+              "textValue": "ALBANIA"
+            },
+            {
+              "displayName": "bengali",
+              "textValue": "BENGALI"
+            },
+            {
+              "displayName": "bulgaria",
+              "textValue": "BULGARIA"
+            },
+            {
+              "displayName": "espanja",
+              "textValue": "ESPANJA"
+            },
+            {
+              "displayName": "farsi",
+              "textValue": "FARSI"
+            },
+            {
+              "displayName": "hindi",
+              "textValue": "HINDI"
+            },
+            {
+              "displayName": "italia",
+              "textValue": "ITALIA"
+            },
+            {
+              "displayName": "kiina",
+              "textValue": "KIINA"
+            },
+            {
+              "displayName": "kurdi",
+              "textValue": "KURDI"
+            },
+            {
+              "displayName": "nepali",
+              "textValue": "NEPALI"
+            },
+            {
+              "displayName": "portugali",
+              "textValue": "PORTUGALI"
+            },
+            {
+              "displayName": "puola",
+              "textValue": "PUOLA"
+            },
+            {
+              "displayName": "ranska",
+              "textValue": "RANSKA"
+            },
+            {
+              "displayName": "romania",
+              "textValue": "ROMANIA"
+            },
+            {
+              "displayName": "saame",
+              "textValue": "SAAME"
+            },
+            {
+              "displayName": "saksa",
+              "textValue": "SAKSA"
+            },
+            {
+              "displayName": "tagalog",
+              "textValue": "TAGALOG"
+            },
+            {
+              "displayName": "thai",
+              "textValue": "THAI"
+            },
+            {
+              "displayName": "turkki",
+              "textValue": "TURKKI"
+            },
+            {
+              "displayName": "ukraina",
+              "textValue": "UKRAINA"
+            },
+            {
+              "displayName": "urdu",
+              "textValue": "URDU"
+            },
+            {
+              "displayName": "vietnam",
+              "textValue": "VIETNAM"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}

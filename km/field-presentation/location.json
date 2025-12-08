@@ -1,0 +1,755 @@
+{
+  "$id": "ce_location",
+  "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
+  "entityType": "location",
+  "displayName": "Sijainti",
+  "presentationEntries": [
+    {
+      "displayName": "Sisältö",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Innehåll"
+        },
+        {
+          "localeCode": "en",
+          "value": "Content"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Perustiedot",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Core information"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Huvudinformation"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "name",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "categories",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "address",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "addressHidden"
+        },
+        {
+          "id": "serviceAreaPlaces"
+        },
+        {
+          "id": "mainPhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "emails"
+        },
+        {
+          "id": "websiteUrl"
+        },
+        {
+          "id": "reservationUrl"
+        },
+        {
+          "id": "orderUrl"
+        },
+        {
+          "id": "menuUrl"
+        },
+        {
+          "id": "entityId",
+          "visibleOnAdd": true
+        }
+      ]
+    },
+    {
+      "displayName": "Lisätiedot",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Additional information"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Ytterligare information"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "featuredMessage",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "description"
+        },
+        {
+          "id": "hours"
+        },
+        {
+          "id": "additionalHoursText"
+        },
+        {
+          "id": "closed"
+        },
+        {
+          "id": "paymentOptions"
+        },
+        {
+          "id": "geomodifier"
+        }
+      ]
+    },
+    {
+      "displayName": "Kuvat ja videot",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Photos and videos"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Foton och videor"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "photoGallery"
+        },
+        {
+          "id": "logo"
+        },
+        {
+          "id": "googleProfilePhoto"
+        },
+        {
+          "id": "googleCoverPhoto"
+        },
+        {
+          "id": "googleVideoGallery"
+        },
+        {
+          "id": "facebookCoverPhoto"
+        },
+        {
+          "id": "facebookProfilePhoto"
+        }
+      ]
+    },
+    {
+      "displayName": "Sosiaalinen media",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Social media"
+        },
+        {
+          "localeCode": "en",
+          "value": "Social media"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookPageUrl"
+        },
+        {
+          "id": "instagramHandle"
+        },
+        {
+          "id": "linkedInUrl"
+        },
+        {
+          "id": "twitterHandle"
+        },
+        {
+          "id": "c_snapchatURL"
+        },
+        {
+          "id": "tikTokUrl"
+        },
+        {
+          "id": "videos"
+        },
+        {
+          "id": "youTubeChannelUrl"
+        },
+        {
+          "id": "pinterestUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Julkaisijakohtaiset",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Utgivarspecifik"
+        },
+        {
+          "localeCode": "en",
+          "value": "Publisher specific"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Google-yritysprofiilin lisätiedot",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Google Business Profile details"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Google Business Profile detaljer"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleAttributes"
+        },
+        {
+          "id": "googleEntityRelationship"
+        },
+        {
+          "id": "googleMessaging"
+        }
+      ]
+    },
+    {
+      "displayName": "Google-yritysprofiilin kysymykset ja vastaukset",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Google Business Profile questions and answers"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Google Business Profile frågor och svar"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Muut verkkosivulinkit",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Other web addresses"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Andra webbadresser"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleWebsiteOverride"
+        },
+        {
+          "id": "bingWebsiteOverride"
+        },
+        {
+          "id": "androidAppUrl"
+        },
+        {
+          "id": "iosAppUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Facebook-kentät",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Facebook-fält"
+        },
+        {
+          "localeCode": "en",
+          "value": "Facebook fields"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "facebookWebsiteOverride"
+        },
+        {
+          "id": "facebookAbout"
+        },
+        {
+          "id": "facebookOverrideCity"
+        },
+        {
+          "id": "facebookName"
+        },
+        {
+          "id": "facebookDescriptor"
+        },
+        {
+          "id": "facebookVanityUrl"
+        }
+      ]
+    },
+    {
+      "displayName": "Apple Business-tiedot",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Apple Business information"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Apple Business information"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "appleBusinessDescription"
+        },
+        {
+          "id": "appleCoverPhoto"
+        },
+        {
+          "id": "appleActionLinks"
+        },
+        {
+          "id": "appleCompanyId"
+        },
+        {
+          "id": "appleBusinessId"
+        },
+        {
+          "id": "appleDisplayName"
+        }
+      ]
+    },
+    {
+      "displayName": "Kilpailija- ja hakuseuranta",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Competitor and search tracking"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Inställningar för konkurrent- och sökspårning"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Kilpailija- ja hakuseurannan asetukset",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Competitor and Search Tracker settings"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Inställningar för konkurrent- och sökspårning"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Toimialakohtaiset",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Category specific"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Kategorispecifik"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Muut aukioloajat ja palvelutiedot",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Other opening hours and service information"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Övriga öppettider och serviceinformation"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "onlineServiceHours"
+        },
+        {
+          "id": "pickupAndDeliveryServices"
+        },
+        {
+          "id": "deliveryHours"
+        },
+        {
+          "id": "accessHours"
+        },
+        {
+          "id": "driveThroughHours"
+        },
+        {
+          "id": "pickupHours"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Ruoka ja juoma",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Food and drink"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Mat och dryck"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "menus"
+        },
+        {
+          "id": "takeoutHours"
+        },
+        {
+          "id": "happyHours"
+        },
+        {
+          "id": "kitchenHours"
+        },
+        {
+          "id": "dineInHours"
+        },
+        {
+          "id": "brunchHours"
+        }
+      ]
+    },
+    {
+      "displayName": "Asetukset",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Inställningar"
+        },
+        {
+          "localeCode": "en",
+          "value": "Settings"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Kansiot ja nimikkeet",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Mappar och etiketter"
+        },
+        {
+          "localeCode": "en",
+          "value": "Folders and labels"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "folder"
+        },
+        {
+          "id": "labels"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Arvostelun generointi",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Review Generation"
+        },
+        {
+          "localeCode": "en",
+          "value": "Review generation"
+        }
+      ],
+      "entryType": "SECTION"
+    },
+    {
+      "displayName": "Vain sisäiseen käyttöön",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Endast för internt bruk"
+        },
+        {
+          "localeCode": "en",
+          "value": "Internal use only"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Tilit",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Accounts"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Konton"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleAccountId"
+        },
+        {
+          "id": "googlePlaceId"
+        },
+        {
+          "id": "gmbLinkedAccount"
+        },
+        {
+          "id": "facebookLinkedAccount"
+        },
+        {
+          "id": "linkedinLinkedAccount"
+        },
+        {
+          "id": "bookingDotComPropertyId"
+        },
+        {
+          "id": "trustpilotLinkedAccount"
+        },
+        {
+          "id": "googleAdministratorEmail"
+        }
+      ]
+    },
+    {
+      "displayName": "Ei käytössä",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Not in use"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Ei käytössä",
+      "displayNameTranslations": [
+        {
+          "localeCode": "en",
+          "value": "Not in use"
+        },
+        {
+          "localeCode": "sv",
+          "value": "Inte i bruk"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "c_customText"
+        },
+        {
+          "id": "phoneticName",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "timezone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "isoRegionCode",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "deliverListingsWithoutGeocode",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "uberTripBranding",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "uberLink",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "yelpWebsiteOverride",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "impressum",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "covid19InformationUrl",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "covidMessaging",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "proofOfVaccinationRequired",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "fullyVaccinatedStaff",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "what3WordsAddress",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "slug",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "deliveryUrl",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "fax",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "ttyPhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "localPhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "languages",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "landingPageUrl",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "tollFreePhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "mobilePhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "googleMyBusinessLabels",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "seniorHours",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "yearEstablished",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "alternatePhone",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "specialities",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "associations",
+          "visibleOnAdd": true
+        },
+        {
+          "id": "keywords"
+        },
+        {
+          "id": "brands"
+        },
+        {
+          "id": "neighborhood"
+        }
+      ]
+    },
+    {
+      "displayName": "Lisämääreet",
+      "displayNameTranslations": [
+        {
+          "localeCode": "sv",
+          "value": "Tillkommande attribut"
+        },
+        {
+          "localeCode": "en",
+          "value": "Additional Attributes"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "products"
+        },
+        {
+          "id": "services"
+        },
+        {
+          "id": "productLists"
+        },
+        {
+          "id": "priceRange"
+        }
+      ]
+    },
+    {
+      "displayName": "More",
+      "entryType": "DIVIDER"
+    },
+    {
+      "displayName": "Uncategorized Fields",
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "googleCid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$id": "c_contactFormEmail",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Yhteystietolomakkeen sähköposti",
+  "displayNameTranslation": [
+    {
+      "localeCode": "en",
+      "value": "Contact form email"
+    },
+    {
+      "localeCode": "sv",
+      "value": "Kontaktformulär e-post"
+    }
+  ],
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "SIMPLE",
+      "maxLength": 100
+    }
+  },
+  "typeId": "string"
+}

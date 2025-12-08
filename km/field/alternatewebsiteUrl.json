@@ -1,0 +1,25 @@
+{
+  "$id": "c_alternatewebsiteUrl",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Vaihtoehtoinen verkkosivuosoite",
+  "displayNameTranslation": [
+    {
+      "localeCode": "en",
+      "value": "Alternate website URL"
+    },
+    {
+      "localeCode": "sv",
+      "value": "Alternativ webb URL"
+    }
+  ],
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "stringType": {
+      "stereotype": "URL",
+      "maxLength": 2000
+    }
+  },
+  "typeId": "string"
+}

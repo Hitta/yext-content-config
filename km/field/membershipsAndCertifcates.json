@@ -1,0 +1,31 @@
+{
+  "$id": "c_membershipsAndCertifcates",
+  "$schema": "https://schema.yext.com/config/km/field/v1",
+  "description": "",
+  "displayName": "Jäsenyydet ja sertifikaatit",
+  "displayNameTranslation": [
+    {
+      "localeCode": "en",
+      "value": "Memberships and certificates"
+    },
+    {
+      "localeCode": "sv",
+      "value": "Medlemskap och certifikat"
+    }
+  ],
+  "group": "NONE",
+  "localization": "PRIMARY_ONLY",
+  "type": {
+    "listType": {
+      "typeId": "string",
+      "maxLength": 10,
+      "type": {
+        "stringType": {
+          "maxLength": 100000,
+          "stereotype": "SIMPLE"
+        }
+      }
+    }
+  },
+  "typeId": "list"
+}
